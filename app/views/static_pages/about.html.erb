@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
       <title>Amanda's Avenue</title>
     </head>
     <body>
         <h1>About Me</h1>
-        <p>
-          This is the About me page
-        </p>
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#intro">Intro</a></li>
+          <li><a data-toggle="tab" href="#funfacts">Fun Facts</a></li>
+          <li><a data-toggle="tab" href="#resume">Resume</a></li>
+        </ul>
+        <div class="well">
+          <div class="tab-content">
+            <div id="intro" class="tab-pane fade in active">
+              <%= image_tag "about_me.JPG" %>
+              <br></br>
+              <p>I grew up in a small town in Southern California. I moved to San Francisco in 2011.
+                Now I am a Computer Science Student at San Francisco State University and I will be
+                graduating in the spring. I am exited to graduate and start a new phase of my life.</p>
+            </div>
+            <div id="funfacts" class="tab-pane fade">
+              <h3>Favorite Activities</h3>
+              <ul>
+                <li>Volleyball - indoor and outdoor</li>
+                <li>Baking</li>
+                <li>Reading</li>
+              </ul>
+              <h3>Hobbies</h3>
+              <ul>
+                <li>Baking</li>
+                <li>Crafts (sewing, knitting, scrapbooking)</li>
+              </ul>
+            </div>
+            <div id="resume" class="tab-pane fade">
+              <h3>Amanda McWhorter</h3>
+              <h4>Education</h4>
+              <li>San Francisco State University</li>
+              <li>Graduation date: May 2014</li>
+              <li>Major: Computer Science</li>
+              <h4>Work Experience</h4>
+              <li>Manilla - Web Development and QA Intern</li>
+              <li>SFSU Communications Dept. - Student Web Assistant</li>
+              <li>Epsilon Systems Inc. - Data Entry</li>
+              <h4>Qualification and Other Experience</h4>
+              <li>Programming languages: Ruby, Java, C++, and C</li>
+              <li>Ruby on Rails</li>
+            </div>
+          </div>
+        </div>
     </body>
 </html>
