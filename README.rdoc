@@ -1,4 +1,4 @@
 == Welcome to Amanda's Ally
 
 Amanda's Ally is created by Amanda McWhorter.
-This website was created using Ruby on Rails and Bootstrap. 
+This website was created using Ruby on Rails and Bootstrap.
