@@ -47,6 +47,17 @@ textarea {
   }
 }
 
+.navbar-brand {
+  color: purple;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.cover_photo {
+  width: 100%;
+  z-index: 0;
+  padding-top: 0;
+}
+
 /* footer */
 footer {
   margin-top: 45px;
@@ -72,5 +83,19 @@ footer {
       float: left;
       margin-left: 10px;
     }
+  }
+}
+
+/* carousel*/
+
+.carousel-inner, .carousel {
+  display: block;
+  max-width: 100%;
+  line-height: 1;
+}
+
+container {
+  #carousel-cont {
+    max-width: 100%;
   }
 }

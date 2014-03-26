@@ -2,40 +2,31 @@
 <html>
     <head>
       <title>Amanda's Avenue</title>
+
+      <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+      <script>
+          // Load this when the DOM is ready
+          $(function(){
+              // You used .myCarousel here.
+              // That's the class selector not the id selector,
+              // which is #myCarousel
+              $('#myCarousel').carousel();
+          });
+      </script>
     </head>
     <body>
-    <!-- Carousel
-================================================== -->
-
-    <%= image_tag "cover_photo_mnts.JPG" %>
-    <!--<h1>Amanda's Avenue</h1>-->
-          <!--<div class="container marketing">-->
-            <!--<div class="row">-->
-              <!--<div class="col-lg-4">-->
-                <!--<div class="well">-->
-                  <!--<h3>Latest Project</h3>-->
-                <!--</div>-->
-              <!--</div>-->
-              <!--<div class="col-md-4">-->
-                <!--<div class="well well-sm">-->
-                  <!--<h3>Latest recipe</h3>-->
-                <!--</div>-->
-              <!--</div>-->
-              <!--<div class="col-md-4">-->
-                <!--<div class="well well-sm">-->
-                  <!--<h3>Latest cocktail</h3>-->
-                <!--</div>-->
-              <!--</div>-->
-            <!--</div>-->
-          <!--</div>-->
         <!-- START THE FEATURETTES -->
 
         <hr class="featurette-divider">
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Latest Project</h2>
-            <p class="lead">I recently decided to take up crochet. Here are some tutorials I started with.</p>
+            <h2 class="featurette-heading">Cottonwood Lakes Trip 2013</h2>
+            <p class="lead">Last summer me and some friends did an overnight backpacking trip to Cottonwood Lakes,
+              located in the southern Sierra's.</p>
+            <button type="button" class="btn btn-primary btn-sm">View details</button>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-responsive" data-src="/assets/cover_photo_mnts.JPG" alt="photo">
@@ -49,8 +40,9 @@
             <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
           </div>
           <div class="col-md-7">
-            <h2 class="featurette-heading">Latest Recipe</h2>
-            <p class="lead">I really liked the crumble topping from this recipe.</p>
+            <h2 class="featurette-heading">Mango the Orange Cat</h2>
+            <p class="lead">We adopted Mango from the SFSPCA in April of 2013.</p>
+            <button type="button" class="btn btn-primary btn-sm">View details</button>
           </div>
         </div>
 
@@ -58,8 +50,8 @@
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Latest Project</h2>
+            <p class="lead">I recently decided to take up crochet. Here are some tutorials I started with.</p>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
