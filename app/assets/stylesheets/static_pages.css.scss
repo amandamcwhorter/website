@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .jumbotron {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url("cover_photo.jpg");
   background-position: center;
   background-size: cover;
@@ -20,4 +20,8 @@
 
 .widewrapper > img {
   width:100%;
+}
+
+.navbar {
+  margin-bottom: 0;
 }
