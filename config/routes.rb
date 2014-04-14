@@ -3,6 +3,7 @@ Website::Application.routes.draw do
 
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
+  match '/mango',   to: 'static_pages#mango'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
